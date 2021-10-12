@@ -1,0 +1,352 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo de letra*/
+body    {
+    font-family: 'Roboto', sans-serif;   
+}
+
+/* Header */
+
+header {
+    height: 13.5rem;   
+    background: rgb(255,255,255);
+    background: linear-gradient(30deg, rgba(255,255,255,1) 70%, rgba(175,233,255,1) 83%, rgba(41,157,255,1) 93%, rgba(27,81,227,1) 100%);
+    border-bottom: solid 5px rgb(207, 205, 205);   
+}
+
+.inicio{
+    display: flex;  
+    justify-content: space-evenly;
+     
+}
+
+header h1   {
+    background: rgb(41, 70, 167);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    top: 85px;   
+    height: 50px ;
+    border-bottom: solid 5px rgb(207, 205, 205);
+}
+
+/*Estilo de navegacion*/
+
+nav  ul  li  a {
+    width: 25%;
+    font-weight:500;
+    color: #2038B9;
+    font-size:1.5626rem;
+    text-decoration:none; 
+}
+
+nav ul li a:hover {
+    display: inline-block;
+    color: black;
+    padding: 0px 0px;   
+    display: inline-block;
+    transform: scale(1.2);
+    
+}
+
+nav  ul  li {
+    display: inline-block;
+    position: relative;
+    padding: 0px 30px; 
+    
+}
+
+nav ul {
+    padding: 80px 0px;
+  
+}
+
+/* Ofertas de inicio */
+main .col-md-3 { 
+    border: solid 1px rgb(207, 205, 205);    
+    padding: 1rem;
+    margin: 2rem;
+}
+
+main .col-md-3 div{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+}
+
+/* Pagina nosotros */
+
+.infoNos    {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoNos div    {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.nosotros   {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    padding: 50px;
+}
+
+main.infoNos section{
+    width: 800px;
+    background-color: lightblue;
+    margin: 50px 350px 50px 0px ;
+    padding: 30px;
+   
+}
+
+main.infoNos div{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 50px 0px 50px 350px ;
+
+}
+/* formato de productos del inicio */
+
+/* .productos  {
+    display: inline-block;
+    text-align: center;
+    left: 100px;
+    font-style: normal;
+    color:#2038B9;
+    border-bottom: solid 5px black;
+    width: 600px;
+    margin: 5px 750px;
+    text-transform: uppercase;
+
+}
+.mainIndex{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .mainIndex div {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;    
+     margin: 50px 200px;        
+ }
+
+
+main div section{
+    border:solid 1px rgb(185, 182, 182);
+    width: 400px;
+    padding: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+
+} */
+
+
+
+
+
+    
+    
+
+
+ 
+
+/*tabla de beneficios*/
+
+/* main th  {
+    color:white;
+    font-size:1.125rem;
+    background-color:#2038B9; 
+    border-width: 10px;
+}
+
+main tr  {
+    font-weight: 700;
+    background-color:bisque;   
+} */
+
+
+
+/* footer */
+
+footer  {   
+    border-top: solid 1px black;
+}
+
+.footerInicio {
+    display: flex;
+    flex-direction: row;
+    background: rgb(41, 70, 167);
+    
+    justify-content: space-around;
+    border-top: solid 5px rgb(207, 205, 205);
+}
+
+.footerInicio div  {   
+    display: flex;
+    flex-direction: row;   
+    margin: 50px;
+    padding: 5px;   
+}
+    
+footer div ul li{
+    color: white;
+    list-style: none;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+    
+footer div a{
+    padding: 10px;
+}
+
+/* Promociones */
+
+.mainPromociones{
+    height: 1500px;
+  
+}
+
+.letrasPromocion{
+    font-size: 3.125rem;
+    font-weight:bold;
+    color: #2038B9;
+    font-style: italic;
+    
+}
+
+.grid {
+    display: grid;  
+    background-color: lightblue;
+    justify-items: center;
+    grid-template-columns: 500px 500px; 
+    padding: 100px;   
+    margin: 0px 400px;         
+    grid-template-rows: 500px 500px; 
+    grid-row-gap: 0px;
+    grid-column-gap: 1px;
+ }
+
+ .grid span p {
+     font-size: 1.25rem;
+     letter-spacing: 1px;
+     word-spacing: 3px;
+
+ }
+ 
+ .promociones{
+    display: inline-block;
+    text-align: center;
+    left: 100px;
+    font-style: normal;
+    color:#2038B9;
+    border-bottom: solid 5px black;
+    width: 600px;
+    margin: 30px 750px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+
+ }
+
+
+ /* Formulario */
+/* div input {
+    
+    width: 100px; height: 50px;
+    transition: all 1s;       
+ }
+
+div input:focus {
+    
+    width: 200px;
+    font-size: 1.5rem;
+ }
+ 
+ fieldset section{
+     
+    background-color: gainsboro;
+    padding: 5px 700px 5px 700px;
+    margin: 50px 300px;
+    border:solid 2px black;
+ }
+
+ legend{
+     text-align: center;
+     font-size: 20px;
+     padding: 10px;
+ }
+ */
+
+ 
+form{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    border: solid 1px black;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactanos{
+    display: inline-block;
+    text-align: center;  
+    color:#2038B9;
+    border-bottom: solid 5px black;
+    width: 800px;
+    margin: 30px 750px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Media Queries */
+ @media (max-width: 768px)  {
+   
+    #carouselExampleIndicators {
+        display: none;
+    }
+  
+    }
+    
+    @media (max-width: 320px)  {
+   
+      body  {
+        text-align: center;
+        }
+    
+        .footerInicio {
+            display: flex;
+            flex-direction: column;
+          
+        }
+        header div{
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        }
